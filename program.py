@@ -30,6 +30,6 @@ with open('uczniowie.txt') as g:
             break
         row = line.strip().split(";")
         if row[0]==b_key:
-            print(f"{row[2]} {row[1]} {b_mark}")
+            print(f"{row[2]} {row[1]} {b_key} {b_mark}")
             break
         # print(row)
